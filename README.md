@@ -23,8 +23,9 @@ The project includes three experiments: two panoramic tasks implemented with Psy
 - Typical runtime: ~25 min per experiment  
 
 ### Unity Experiment (Exp 2)
-- **Unity 2022.3+**
+- **Unity 2022.3**
 - **C# scripts**
+- Typical runtime: ~100 min (60 min learn + 40 min test) per experiment  
 
 ---
 

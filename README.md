@@ -10,7 +10,7 @@ The project includes three experiments: two panoramic tasks implemented with Psy
 | Experiment | Folder | Platform | Description |
 |-------------|---------|-----------|-------------|
 | **Exp 1a — Regular Layout Panorama** | `PanoCross` | MATLAB | Participants explored cross-shaped panoramic intersections and performed Judgment of Relative Direction (JRD) tasks. |
-| **Exp 1b — Irregular Layout Panorama** | `PanoIrr` | MATLAB | Similar design using irregular street layouts to examine effects of layout geometry on heading. |
+| **Exp 1b — Irregular Layout Panorama** | `PanoIrr` | MATLAB | Similar design using irregular street layouts to. |
 | **Exp 2 — Virtual City Navigation** | `UnityNavigation` | Unity (C#) | Participants navigated a virtual city composed of multiple street blocks differing in layout alignment, then completed global and local JRD tasks. |
 
 ---

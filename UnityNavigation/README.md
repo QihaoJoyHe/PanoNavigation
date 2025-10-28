@@ -1,7 +1,7 @@
 # Unity Navigation Experiment
 
 ## Overview
-This folder contains the scene and script files for **Experiment 2 (Virtual City Navigation)** in the *PanoNavigation* Project.  
+This folder contains the scene and script files for **Experiment 2 (Virtual City Navigation)** in the *PanoNavigation Project*.  
 In this experiment, participants navigated through a **virtual city composed of three street blocks** with road orientations of **0°, 22.5°, and 45°** relative to true north.  
 
 ---

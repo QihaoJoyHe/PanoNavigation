@@ -15,8 +15,7 @@ Instead, the accompanying `PanoCross_Parameters.xlsx` provides detailed metadata
 These parameters allow others to **reconstruct or re-download** the original stimuli if needed.
 
 Panoramic images were preprocessed into 360 square frames using the script `geneVideoFrame.m`.  
-**Frame 1** always aligned with the road closest to north.  
-Frame extraction used the [**PanoBasic Toolbox**](https://github.com/yindaz/PanoBasic).
+**Frame 1** always aligned with the road closest to north. Frame extraction used the [**PanoBasic Toolbox**](https://github.com/yindaz/PanoBasic).
 
 ---
 

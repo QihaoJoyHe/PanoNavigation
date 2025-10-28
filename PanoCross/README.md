@@ -8,7 +8,7 @@ In this condition, participants explored **cross-shaped street intersections** a
 
 ## Stimuli
 The original panoramic images were not uploaded.  
-Instead, the accompanying `PanoCross_Parameters.xlsx` provides detailed metadata for all **60 panoramic street scenes**, including:  
+Instead, the accompanying `CrossPanoParameters.xlsx` provides detailed metadata for all **60 panoramic street scenes**, including:  
 - `NorthRotation` — the rotation (in degrees) of the true north within each panorama.  
 - `RoadRotation1_N` and `RoadRotation2_N` — the angular directions of the two main roads relative to north.  
 - `URL` — the link to the corresponding Google Street View panorama.  
@@ -36,7 +36,7 @@ Each participant’s 20 panoramas were randomly sampled from the 60 scene databa
 |------|--------------|
 | `geneVideoFrame.m` | Converts panoramic images into 360 square view frames. |
 | `A0main_PanoExp.m` | Main script. |
-| `PanoCross_Parameters.xlsx` | Metadata for all panoramas (orientation, layout angles, and URLs). |
+| `CrossPanoParameters.xlsx` | Metadata for all panoramas (orientation, layout angles, and URLs). |
 
 ---
 

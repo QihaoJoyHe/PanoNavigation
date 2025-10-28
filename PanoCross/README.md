@@ -2,7 +2,7 @@
 
 ## Overview
 This folder contains the code and parameter files for **Experiment 1a (Regular Layout Panorama)** in the PanoNavigation project.  
-In this condition, participants explored **cross-shaped street intersections** and later performed **Judgment of Relative Direction (JRD)** tasks to assess heading representations.
+In this condition, participants explored **cross-shaped street intersections** and later performed **Judgment of Relative Direction (JRD)** tasks.
 
 ---
 

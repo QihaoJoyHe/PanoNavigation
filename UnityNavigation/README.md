@@ -1,32 +1,47 @@
 # Unity Navigation Experiment
 
-This folder contains the Unity project files for **Experiment 2** of the *PanoNavigation Project*, in which participants navigated a virtual city and performed spatial memory tasks.
-
----
-
 ## Overview
-Participants explored a **virtual city environment** composed of multiple street blocks differing in layout alignment. During the **learning phase**, participants navigated freely following directional instructions; during the **test phase**, they completed **Judgment of Relative Direction (JRD)** tasks assessing their ability to construct global and local spatial reference frames.
+This folder contains the scene and script files for **Experiment 2 (Virtual City Navigation)** in the *PanoNavigation* Project.  
+In this experiment, participants navigated through a **virtual city composed of three street blocks** with road orientations of **0°, 22.5°, and 45°** relative to true north.  
 
 ---
 
-## Folder Structure
-- **`Navigation.unity`** — Main experiment scene containing the city environment and experiment logic.  
-- **`ExpController.cs`** — Central script controlling overall experiment flow (learning → testing → data saving).  
-- **`PlayerController.cs`** — Handles participant movement and camera rotation during navigation.  
-- **`JRDResponseController.cs`** — Controls JRD task trials, question display, and response collection.  
-- **`DataLogger.cs`** — Manages trial-level data recording and CSV export.  
+## Virtual Environment
+The Unity scene (`/Scenes/Navigation.unity`) includes a virtual city with three distinct **street blocks**, each differing in overall alignment to north.  
+From this environment, **9 intersections** (3 per block) were randomly selected as **targets** that participants needed to learn and later recall.
+
+During navigation, participants encoded two types of spatial information:  
+- **Inter-location relations** — spatial positions among the 9 target intersections.  
+- **Intra-location orientations** — view-based layouts within each intersection.  
+These corresponded to **two JRD tasks** administered later in the experiment.
 
 ---
 
-## Usage
-1. Open the project in **Unity (version ≥ 2021.3)**.  
-2. Load the scene `Navigation.unity` under `/Scenes/`.  
-3. Press ▶️ *Play* in the Unity Editor to start the experiment.  
+## Experiment Design
+Each participant completed **six learning rounds** followed by **JRD testing**:
 
-*(Note: Stimulus assets and additional prefabs may not be included in this repository due to size limits. The provided scripts and scene structure are sufficient to replicate the experiment logic.)*
+1. **Learning Phase** — In each round, participants navigated the city following on-screen cues to visit all 9 target intersections (order randomized). Upon arrival, they freely rotated their view to memorize the intersection layout.  
+2. **Test Phase** — Participants performed **54 JRD trials**, each trial consists of:  
+   - **Inter-JRD:** judgments between different intersections.  
+   - **Intra-JRD:** judgments within the intersection.
 
 ---
 
-## Citation
-If using or adapting this code, please cite:  
-> He, Q. (2025). *PanoNavigation Project: Spatial Reference Frame Transformation and Virtual City Navigation.*
+## Code Structure
+| File | Description |
+|------|--------------|
+| `Navigation.unity` | Main Unity scene containing the city environment and experiment setup. |
+| `ExpController.cs` | Controls experiment flow (learning, testing, data saving). |
+| `PlayerController.cs` | Handles player movement and camera rotation during navigation. |
+| `JRDResponseController.cs` | Manages the JRD test phase, question display, and response collection. |
+| `DataLogger.cs` | Records data and exports CSV files. |
+
+---
+
+## Dependencies
+- **Unity**  
+- **C#**  
+
+---
+
+*Note: Some prefabs and environment assets are not included.*
